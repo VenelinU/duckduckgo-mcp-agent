@@ -5,7 +5,7 @@ services:
       dockerfile: Dockerfile
     container_name: mcp-web-search
     ports:
-      - "8000:8000"
+      - "8059:8000"
     environment:
       - MCP_ENVIRONMENT=production
       - MCP_LOG_LEVEL=INFO
